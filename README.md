@@ -59,7 +59,9 @@ Where:
 - \( X_n \) and \( Y_n \) are outputs of the two generators.  
 - \( M \) is the maximum modulus of the two generators.  
 
-```
+
+
+---
 
 **Output:**  
 ```
@@ -72,7 +74,9 @@ Where:
 
 This method generates pseudo-random numbers by squaring the seed value and extracting a fixed number of middle digits from the result. The new seed is formed using these middle digits, and the process is repeated.  
 
-```
+
+
+---
 **Output:**  
 ```
 [5227, 3215, 3362, 3030, 1809, 2724, 4201, 6484, 422, 1780]
